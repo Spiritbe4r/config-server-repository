@@ -2,9 +2,9 @@ spring:
   application:
     name: cardenascode-order
   datasource:
-    password: 1234asdf
-    url: jdbc:postgresql://localhost:5432/pizzeria
-    username: postgres
+    password: password
+    url: jdbc:postgresql://localhost:5432/orders
+    username: cardenascode
   jpa:
     hibernate:
       ddl-auto: update
