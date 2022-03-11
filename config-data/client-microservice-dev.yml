@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: client-microservice
+  data:
+    mongodb:
+      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/clients?retryWrites=true&w=majority
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  info:
+    env:
+      enabled: true
+info:
+  application:
+    name : client-microservice
+    Description : This is a Microservice to manage clients
+    artifact : bank-clients
+    version : '@project.version@'
+    spring-cloud-version: '@spring-cloud.version@'
+    spring-boot-version: 2.6.4
