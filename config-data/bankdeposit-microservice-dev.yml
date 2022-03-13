@@ -9,3 +9,5 @@ apiclient:
   uri: http://localhost:8095
 microservice-client:
   uri: /api/clients
+microservice-accounts:
+  uri: /api/accounts
