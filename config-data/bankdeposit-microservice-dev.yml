@@ -8,6 +8,6 @@ spring:
 apiclient:
   uri: http://localhost:8095
 microservice-client:
-  uri: /api/clients
+  uri: /api/clients/
 microservice-accounts:
-  uri: /api/accounts
+  uri: /api/accounts/
