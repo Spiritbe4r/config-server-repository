@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   application:
-    name: bankaccounts-microservice
+    name: accounts-microservice
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/accounts?retryWrites=true&w=majority
@@ -21,7 +21,9 @@ logging:
   file: logback-spring.xml
 
 
-
+microservices-urls:
+  api-client: http://localhost:8095/api/client
+  api-credit: http://localhost:8095/api/credit
 
 
 
