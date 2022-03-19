@@ -1,8 +1,16 @@
+server:
+  port: 8084
+
 spring:
   application:
     name: bankwithdrawal-microservice
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/withdrawal?retryWrites=true&w=majority
+
+
+microservices-urls:
+ 
+  api-account: http://localhost:8095/api/account
 
 
