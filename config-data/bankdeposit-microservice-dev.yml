@@ -11,3 +11,5 @@ microservice-client:
   uri: /api/clients/
 microservice-accounts:
   uri: /api/accounts/
+microservices-urls:
+  api-client: http://localhost:8095/api/client
