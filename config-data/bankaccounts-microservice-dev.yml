@@ -22,7 +22,7 @@ logging:
 
 
 microservices-urls:
-  api-client: http://localhost:8095/api/client
+  api-client: http://192.168.101.7:8095/api/client
   api-credit: http://localhost:8095/api/credit
   api-creditcard: http://localhost:8095/api/creditcard
 
