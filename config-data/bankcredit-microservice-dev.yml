@@ -11,3 +11,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+microservice-client:
+  uri: http://localhost:8095/api/client
