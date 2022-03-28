@@ -8,4 +8,5 @@ spring:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/creditcard?retryWrites=true&w=majority
 
-
+microservices-urls:
+  api-client: http://localhost:8095/api/client
