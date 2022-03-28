@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: currentaccount-microservice
+  data:
+    mongodb:
+      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/currentAccount?retryWrites=true&w=majority
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
