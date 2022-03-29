@@ -28,6 +28,9 @@ info:
     version : '@project.version@'
     spring-cloud-version: '@spring-cloud.version@'
     spring-boot-version: 2.6.4
+    
+microservices-urls:
+  api-client: http://localhost:8095/api/client
 
 #eureka:
 #  client:
