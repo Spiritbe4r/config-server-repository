@@ -6,7 +6,9 @@ spring:
     name: client-microservice
   data:
     mongodb:
-      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/client?retryWrites=true&w=majority
+#      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/client?retryWrites=true&w=majority
+      database: bootcamp
+      uri: mongodb://azclouddb:z9iETfJNG3YRqtUr8wXp6qnn2IeIsA06NMs2A1TaxVq20gN8Wi1MSjcCbQArQ0yvoWCuR4bQzvLPkZV65UfUQQ==@azclouddb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@azclouddb@
   
 
 management:
