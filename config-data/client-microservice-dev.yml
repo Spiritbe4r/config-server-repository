@@ -7,8 +7,7 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@Cluster0.s22zz.mongodb.net/clients?retryWrites=true&w=majority
-      port: 27017
-
+  
 
 management:
   endpoints:
