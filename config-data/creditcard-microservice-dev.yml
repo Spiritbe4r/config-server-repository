@@ -2,8 +2,8 @@
 #  port: 8088
 
 spring:
-#  application:
-#    name: creditcard-microservice
+  application:
+    name: creditcard-microservice
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@Cluster0.s22zz.mongodb.net/creditcard?retryWrites=true&w=majority
