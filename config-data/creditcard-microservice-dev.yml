@@ -11,4 +11,3 @@ spring:
 
 microservices-urls:
   api-client: http://localhost:8095/api/client
-#
