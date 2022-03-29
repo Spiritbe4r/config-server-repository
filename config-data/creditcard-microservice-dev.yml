@@ -7,7 +7,7 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/creditcard?ssl=true&retryWrites=true&w=majority
-      port: 27017
+#      port: 27017
 
-microservices-urls:
-  api-client: http://localhost:8095/api/client
+#microservices-urls:
+#  api-client: http://localhost:8095/api/client
