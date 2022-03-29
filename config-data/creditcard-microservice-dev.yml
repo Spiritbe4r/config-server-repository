@@ -6,7 +6,7 @@ spring:
     name: creditcard-microservice
   data:
     mongodb:
-      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/creditcard?retryWrites=true&w=majority
+      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/creditcard?ssl=true&retryWrites=true&w=majority
 #      port: 27017
 
 microservices-urls:
