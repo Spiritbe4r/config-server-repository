@@ -6,7 +6,7 @@ spring:
     name: client-microservice
   data:
     mongodb:
-      uri: mongodb+srv://spiritbear:Cuymagic321@Cluster0.s22zz.mongodb.net/clients?retryWrites=true&w=majority
+      uri: mongodb+srv://spiritbear:Cuymagic321@cluster0.s22zz.mongodb.net/clients?retryWrites=true&w=majority
   
 
 management:
