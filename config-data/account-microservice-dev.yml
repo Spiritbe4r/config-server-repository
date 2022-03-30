@@ -10,5 +10,3 @@ logging:
   config:
   file: logback-spring.xml
 
-microservices-urls:
-  api-client: ${API_CLIENT_CONFIG}
