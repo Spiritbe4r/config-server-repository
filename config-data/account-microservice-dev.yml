@@ -10,6 +10,10 @@ logging:
   config:
   file: logback-spring.xml
 
-
+microservices-urls:
+  
+  api-client: ${api_client_config}
+  api-credit: ${api_credit_config}
+  api-creditcard: ${api_creditcard_config}
 
 
