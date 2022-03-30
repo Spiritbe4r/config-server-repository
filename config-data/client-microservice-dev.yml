@@ -2,8 +2,8 @@
 #  port: 8081
 
 spring:
-  application:
-    name: client-microservice
+#  application:
+#    name: client-microservice
   data:
     mongodb:
 #      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/client?retryWrites=true&w=majority
