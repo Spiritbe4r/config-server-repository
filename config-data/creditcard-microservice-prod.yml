@@ -1,0 +1,7 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+microservices-urls:
+  api-client: ${API_CLIENT_CONFIG}
