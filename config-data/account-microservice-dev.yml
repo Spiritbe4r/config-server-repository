@@ -1,11 +1,7 @@
 spring:
-
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/accounts?retryWrites=true&w=majority
-
-
-
 health:
   config:
     enabled=false:
@@ -13,7 +9,6 @@ health:
 logging:
   config:
   file: logback-spring.xml
-
 
 microservices-urls:
   api-client: ${api_client_config}
