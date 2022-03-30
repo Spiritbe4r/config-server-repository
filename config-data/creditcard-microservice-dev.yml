@@ -10,8 +10,8 @@ spring:
 
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+    service-url:
+      defaultZone: http://localhost:8761/eureka
       
 microservices-urls:
   api-client: http://localhost:8095/api/client
