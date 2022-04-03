@@ -1,0 +1,17 @@
+spring:
+
+  data:
+    mongodb:
+      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/deposit?retryWrites=true&w=majority
+microservices-urls:
+
+  api-transaction: http://localhost:8095/api/transaction
+
+apiclient:
+  uri: http://localhost:8095
+microservice-client:
+  uri: /api/clients/
+microservice-accounts:
+  uri: /api/accounts/
+  
+
