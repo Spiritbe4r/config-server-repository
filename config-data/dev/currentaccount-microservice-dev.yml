@@ -1,0 +1,18 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: currentaccount-microservice
+  data:
+    mongodb:
+      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/currentAccount?retryWrites=true&w=majority
+      
+microservices-urls:
+  api-client: http://localhost:8095/api/client
+  api-credit: http://localhost:8095/api/credit
+  api-creditcard: http://localhost:8095/api/creditcard
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
