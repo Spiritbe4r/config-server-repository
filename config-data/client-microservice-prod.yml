@@ -4,26 +4,7 @@ spring:
     mongodb:
       database: bootcamp
       uri: mongodb://azclouddb:z9iETfJNG3YRqtUr8wXp6qnn2IeIsA06NMs2A1TaxVq20gN8Wi1MSjcCbQArQ0yvoWCuR4bQzvLPkZV65UfUQQ==@azclouddb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@azclouddb@
-  cloud:
-    stream:
-      bindings:
-        output:
-          destination: z03ph2bn-default
-        outputTopic:
-          destination: z03ph2bn-default
-  kafka:
-    bootstrap-servers: >-
-      tricycle-01.srvs.cloudkafka.com:9094,tricycle-02.srvs.cloudkafka.com:9094,tricycle-03.srvs.cloudkafka.com:9094
-    properties:
-      security:
-        protocol: SASL_SSL
-      sasl:
-        mechanism: SCRAM-SHA-256
-        jaas:
-          config: org.apache.kafka.common.security.scram.ScramLoginModule required username="z03ph2bn" password="kaC5QUtlHtNkIMmZNAakznYUSXjzKSLL";
 
-cloudkarafka:
-  topic: z03ph2bn-default
   
 management:
   endpoints:
