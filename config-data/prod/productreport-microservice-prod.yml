@@ -1,0 +1,6 @@
+spring:
+
+  data:
+    mongodb:
+      uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/reports?retryWrites=true&w=majority
+
