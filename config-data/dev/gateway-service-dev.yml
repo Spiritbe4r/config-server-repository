@@ -63,6 +63,11 @@ spring:
           predicates:
             - Path=/api/currentAccount/**
 
+        - id: fixedterms-microservice
+          uri: lb://fixedterms-microservice
+          predicates:
+            - Path=/api/fixedTermAccount/**
+
 
 
 
