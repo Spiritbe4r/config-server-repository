@@ -1,5 +1,5 @@
 server:
-  8085
+  8084
 spring:
   application:
     name: deposit-microservice
