@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: productreport-microservice
+    name: report-microservice
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/reports?retryWrites=true&w=majority
