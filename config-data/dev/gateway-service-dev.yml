@@ -54,8 +54,8 @@ spring:
           predicates:
             - Path=/api/transfer/**
 
-        - id: productreport-microservice
-          uri: lb://productreport-microservice
+        - id: report-microservice
+          uri: lb://report-microservice
           predicates:
             - Path=/api/report/**
         - id: currentaccount-microservice
