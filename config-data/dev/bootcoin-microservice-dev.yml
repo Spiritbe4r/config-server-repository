@@ -20,5 +20,5 @@ microservices-urls:
 
 bootcoin-cost:
 
-  bootcoin-purchase: 3.62
-  bootcoin-sale: 3.70
+  bootcoin-purchase: "3.62"
+  bootcoin-sale: "3.70"
