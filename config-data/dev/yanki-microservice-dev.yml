@@ -14,5 +14,10 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 microservices-urls:
-  api-debitcard: http://localhost:8095/api/debitcard
- 
+  api-client: http://localhost:8095/api/client
+  api-credit: http://localhost:8095/api/credit
+  api-account: http://localhost:8095/api/account
+  api-creditcard: http://localhost:8095/api/creditcard
+  api-currentAcc: http://localhost:8095/api/currentAccount
+  api-fixedtermsAcc: http://localhost:8095/api/fixedTermAccount
+
