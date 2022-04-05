@@ -1,21 +1,19 @@
 server:
-  8084
+  port: 8084
+
 spring:
   application:
     name: deposit-microservice
   data:
     mongodb:
       uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/deposit?retryWrites=true&w=majority
+
 microservices-urls:
 
   api-transaction: http://localhost:8095/api/transaction
+  api-client: http://localhost:8095/api/clients
+  api-account: http://localhost:8095/api/accounts
 
-apiclient:
-  uri: http://localhost:8095
-microservice-client:
-  uri: /api/clients/
-microservice-accounts:
-  uri: /api/accounts/
   
 eureka:
   client:
