@@ -78,6 +78,16 @@ spring:
           predicates:
             - Path=/api/debitcard/**
 
+        - id: bootcoin-microservice
+          uri: lb://bootcoin-microservice
+          predicates:
+            - Path=/api/bootcoin/**
+
+        - id: bootcointransac-microservice
+          uri: lb://bootcointransac-microservice
+          predicates:
+            - Path=/api/bootcoin-transaction/**
+
 
 
 
