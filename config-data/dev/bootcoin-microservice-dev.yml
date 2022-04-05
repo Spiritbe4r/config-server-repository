@@ -18,7 +18,4 @@ microservices-urls:
 
   api-bootcoin-transac: http://localhost:9095/api/bootcoin-transaction
 
-bootcoin-cost:
 
-  bootcoin-purchase: "3.62"
-  bootcoin-sale: "3.70"
