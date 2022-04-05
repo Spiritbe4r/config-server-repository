@@ -68,6 +68,16 @@ spring:
           predicates:
             - Path=/api/fixedTermAccount/**
 
+        - id: yanki-microservice
+          uri: lb://yanki-microservice
+          predicates:
+            - Path=/api/yanki-account/**
+
+        - id: debitcard-microservice
+          uri: lb://debitcard-microservice
+          predicates:
+            - Path=/api/debitcard/**
+
 
 
 
