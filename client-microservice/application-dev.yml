@@ -7,3 +7,4 @@ pacifico:
   region: USA
   hora: true
   timezone: 'America/Los_Angeles'
+  latitude: 'America/Los_Angeles'
