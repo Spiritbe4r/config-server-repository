@@ -1,0 +1,4 @@
+variableglobal: all
+spring:
+  main:
+    allow-bean-definition-overriding : true
