@@ -4,4 +4,6 @@ azure:
     name: nubefalsa
 
 pacifico:
-  region: 'America/Los_Angeles'
+  region: USA
+  hora: true
+  timezone: 'America/Los_Angeles'
