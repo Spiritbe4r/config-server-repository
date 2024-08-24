@@ -7,4 +7,5 @@ pacifico:
   region: USA
   hora: true
   timezone: 'America/Los_Angeles'
-  latitude: 'America/Lima'
+  latitude: 'America/Limon'
+  ga: 'gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
