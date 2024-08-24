@@ -1,4 +1,35 @@
-
-export: false
-description: ' gaaaa'
-appName: 'clients-microservice UPDATED'
+# services.yml
+services:
+  service-a:
+    image: service-a:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=jdbc:postgresql://db.service-a.svc.cluster.local:5432/service_a
+      - LOG_LEVEL=debug
+    dependencies:
+      - service-b
+      - service-c
+  service-b:
+    image: service-b:latest
+    ports:
+      - "8081:8081"
+    environment:
+      - DATABASE_URL=jdbc:postgresql://db.service-b.svc.cluster.local:5432/service_b
+      - LOG_LEVEL=info
+    dependencies:
+      - service-d
+  service-c:
+    image: service-c:latest
+    ports:
+      - "8082:8082"
+    environment:
+      - CACHE_URL=redis://cache.service-c.svc.cluster.local:6379
+      - LOG_LEVEL=warn
+  service-d:
+    image: service-d:latest
+    ports:
+      - "8083:8083"
+    environment:
+      - DATABASE_URL=jdbc:mysql://db.service-d.svc.cluster.local:3306/service_d
+      - LOG_LEVEL=error
